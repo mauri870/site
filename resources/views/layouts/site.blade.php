@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}" media="screen,projection" />
-    <link rel="stylesheet" href="{{ asset('css/sweetalert.min.css') }}" media="screen,projection" />
+    <link rel="stylesheet" href="{{ asset('css/sweetalert.css') }}" media="screen,projection" />
 
     <link rel="stylesheet" href="{{ asset('libs/owl-carousel/owl.carousel.css') }}" media="screen,projection" />
     <link rel="stylesheet" href="{{ asset('libs/owl-carousel/owl.transitions.css') }}" media="screen,projection" />
@@ -33,6 +33,7 @@
 
     <!-- Choose your default colors -->
     <link rel="stylesheet" href="{{ asset('css/colors/color1.css') }}">
+    @yield('styles')
 
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
