@@ -153,7 +153,8 @@
                             </li>
                         </ul> <!-- ./social icons end -->
                         <div class="right copyright">
-                            <p>MaterialX &copy; All Rights Reserved</p>
+                            <p>Mauri870 &copy; All Rights Reserved</p><br>
+                            <p>Theme by MaterialX &copy;</p>
                         </div>
                     </div>
                 </div>
