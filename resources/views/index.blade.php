@@ -14,7 +14,7 @@
                     <div class="home-inner">
                         <div class="center-align home-content">
                             <h1 class="home-title"><span id="typer_i_am"></span></h1>
-                            <h2 class="home-subtitle">Desenvolvedor</h2>
+                            <h2 class="home-subtitle">{{ trans('home.init_phrase') }}</h2>
                             <a href="index.html#contact" class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text">Hire Me <i class="mdi-content-send left"></i>
                             </a>
                         </div>
