@@ -1,6 +1,7 @@
 @extends('layouts.site')
-@section('title','Titulo')
-@section('description','Descricao')
+@section('title',trans('home.title'))
+@section('description',trans('home.description'))
+@section('keywords',trans('home.keywords'))
 @section('styles')
 @stop
 @section('content')
