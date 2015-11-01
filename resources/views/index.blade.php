@@ -1,6 +1,8 @@
 @extends('layouts.site')
 @section('title','Titulo')
 @section('description','Descricao')
+@section('styles')
+@stop
 @section('content')
 <!-- Home Section start -->
 <section id="home" class="scroll-section root-sec grey lighten-5 home-wrap">
