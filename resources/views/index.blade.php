@@ -45,7 +45,7 @@
 
                 <div class="col-sm-12 col-md-4">
                     <div class="person-about">
-                        <h3 class="about-subtitle">My Story</h3>
+                        <h3 class="about-subtitle">{{ trans('menu.about') }}</h3>
                         <p>
                             {!! trans('home.resume') !!}
                         </p>
@@ -56,19 +56,18 @@
 
                 <div class="col-sm-6 col-md-4">
                     <div class="person-img wow fadeIn">
-                        <img class="z-depth-1" src="images/person.jpg" alt="">
+                        <img class="z-depth-1" src="{{ asset('images/me.jpg') }}" alt="">
                     </div>
                 </div>
                 <!-- about me image -->
 
                 <div class="col-sm-6 col-md-4">
                     <div class="person-info">
-                        <h3 class="about-subtitle">Personal Information</h3>
-                        <h5><span>Name :</span> John Doe</h5>
-                        <h5><span>Age :</span> 25 Years</h5>
-                        <h5><span>Phone :</span> +0123456789</h5>
-                        <h5><span>Email :</span> email@domain.com</h5>
-                        <h5><span>Address :</span> Dhaka, Bangladesh</h5>
+                        <h3 class="about-subtitle"></h3>
+                        <h5><span>{{ trans('home.name') }}</span> Mauri de Souza Nunes</h5>
+                        <h5><span>{{ trans('home.age') }}</span> 25 Years</h5>
+                        <h5><span>{{ trans('home.phone') }}</span> +0123456789</h5>
+                        <h5><span>Email :</span> {{ env('MAIL_ADMIN',null) }}</h5>
                     </div>
 
                     <div class="about-social">
