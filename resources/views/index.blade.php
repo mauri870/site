@@ -72,20 +72,20 @@
 
                     <div class="about-social">
                         <ul>
-                            <li>
+                            {{--<li>
                                 <a href="index.html#" class="btn-floating waves-effect waves-light white"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li>
                                 <a href="index.html#" class="btn-floating waves-effect waves-light white"><i class="fa fa-twitter"></i></a>
+                            </li>--}}
+                            <li>
+                                <a href="https://plus.google.com/+MauriSN870" target="_blank" class="btn-floating waves-effect waves-light white"><i class="fa fa-google-plus"></i></a>
                             </li>
                             <li>
-                                <a href="index.html#" class="btn-floating waves-effect waves-light white"><i class="fa fa-google-plus"></i></a>
+                                <a href="https://br.linkedin.com/pub/mauri-de-souza-nunes/90/230/b2" target="_blank" class="btn-floating waves-effect waves-light white"><i class="fa fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="index.html#" class="btn-floating waves-effect waves-light white"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="index.html#" class="btn-floating waves-effect waves-light white"><i class="fa fa-pinterest"></i></a>
+                                <a href="https://github.com/mauri870" target="_blank" class="btn-floating waves-effect waves-light white"><i class="fa fa-github"></i></a>
                             </li>
                         </ul>
                     </div>
