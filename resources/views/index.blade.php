@@ -65,7 +65,7 @@
                     <div class="person-info">
                         <h3 class="about-subtitle"></h3>
                         <h5><span>{{ trans('home.name') }}</span> Mauri de Souza Nunes</h5>
-                        <h5><span>{{ trans('home.age') }}</span> 25 Years</h5>
+                        <h5><span>{{ trans('home.age') }}</span> {{ $my_age }}</h5>
                         <h5><span>{{ trans('home.phone') }}</span> +0123456789</h5>
                         <h5><span>Email :</span> {{ env('MAIL_ADMIN',null) }}</h5>
                     </div>
