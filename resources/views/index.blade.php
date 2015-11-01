@@ -1200,7 +1200,7 @@
 @section('scripts')
     <script>
         $(document).ready(function () {
-                $('#typer_i_am').typer(['PHP', 'Laravel', 'github.com/mauri870']);
+                $('#typer_i_am').typer(['PHP', 'Laravel','Lumen Framework', 'github.com/mauri870']);
         });
     </script>
 @stop
