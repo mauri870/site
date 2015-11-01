@@ -53,6 +53,7 @@ return [
     */
 
     'locale' => 'pt-BR',
+    'supportedLocales'=>[''],
 
     /*
     |--------------------------------------------------------------------------
@@ -170,6 +171,11 @@ return [
          * */
         Laracasts\Flash\FlashServiceProvider::class,
 
+        /*
+         * Localization
+         * */
+        Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
+
     ],
 
     /*
@@ -231,6 +237,9 @@ return [
 
         //Laracasts Flash
         'Flash' => Laracasts\Flash\Flash::class,
+
+        //Localization
+        'LaravelLocalization'   => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
 
     ],
 
