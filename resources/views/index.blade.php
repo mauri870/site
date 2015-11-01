@@ -72,12 +72,6 @@
 
                     <div class="about-social">
                         <ul>
-                            {{--<li>
-                                <a href="index.html#" class="btn-floating waves-effect waves-light white"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="index.html#" class="btn-floating waves-effect waves-light white"><i class="fa fa-twitter"></i></a>
-                            </li>--}}
                             <li>
                                 <a href="https://plus.google.com/+MauriSN870" target="_blank" class="btn-floating waves-effect waves-light white"><i class="fa fa-google-plus"></i></a>
                             </li>
@@ -108,8 +102,9 @@
                     <div class="clearfix skill-inner">
                         <div class="col-sm-12 col-md-3">
                             <div class="skill-left">
-                                <h2 class="title">Skills</h2>
-                                <p class="regular-text">Man behind the gun, any sophisticated weapons. Human remains that taking the role. We are experienced in utilizing all resources.</p>
+                                <h2 class="title">{{ trans('menu.skills') }}</h2>
+                                <p class="regular-text">{{ trans('home.skills_phrase') }}</p><br>
+                                <p class="regular-text">Frank Lloyd Wright</p>
                             </div>
                         </div>
 

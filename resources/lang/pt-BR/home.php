@@ -11,4 +11,8 @@ return [
     'name'=>'Nome',
     'age'=>'Idade',
     'phone'=>'Telefone',
+
+    //Skills
+    'skills_phrase'=>'O preço do sucesso: dedicação, trabalho duro, e uma incessante devoção às coisas que você quer ver acontecer.',
+    ''=>'',
 ];

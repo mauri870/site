@@ -11,4 +11,8 @@ return [
     'name'=>'Name',
     'age'=>'Age',
     'phone'=>'Phone',
+
+    //Skills
+    'skills_phrase'=>'The price of success : dedication, hard work and an unremitting devotion to the things you want to see happen .',
+    ''=>'',
 ];
