@@ -109,13 +109,13 @@
                                     </li>
                                 </ul>
                                 <ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
-                                    <li>Home</li>
-                                    <li><a href="blog.html">All Blog</a>
-                                    </li>
-                                    <li><a href="blog-with-sidebar.html">Blog with Sidebar</a>
-                                    </li>
-                                    <li><a href="single.html">Single Blog</a>
-                                    </li>
+                                    @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                                        <li>
+                                            <a rel="alternate" hreflang="{{$localeCode}}" href="{{LaravelLocalization::getLocalizedURL($localeCode) }}">
+                                                {{{ $properties['native'] }}}
+                                            </a>
+                                        </li>
+                                    @endforeach
                                 </ul>
 
                             </div>
