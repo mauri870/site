@@ -1,10 +1,10 @@
 <?php
 
 return [
-    "about"=>"Sobre",
+    "about"=>"Sobre mim",
     "skills"=>"Habilidades",
     "portfolio"=>"Portifolio",
-    "testmonial"=>"Depoimentos",
+    "testimonial"=>"Depoimento|Depoimentos",
     "contact"=>"Contato",
 
 ];

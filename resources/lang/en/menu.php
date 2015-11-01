@@ -4,7 +4,7 @@ return [
     "about"=>"About me",
     "skills"=>"Skills",
     "portfolio"=>"Portfolio",
-    "testimonial"=>"Testmonials",
+    "testimonial"=>"Testmonial|Testimonials",
     "contact"=>"Contact",
 
 ];
