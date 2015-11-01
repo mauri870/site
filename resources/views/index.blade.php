@@ -119,7 +119,7 @@
                                             <div class="singel-hr">
                                                 <div class="singel-hr-inner" data-height="100%">
                                                     <div class="skill-visiable">
-                                                        <span class="skill-title">Photoshop</span>
+                                                        <span class="skill-title">Laravel</span>
                                                         <div class="hr-wrap">
                                                             <div class="hrc"></div>
                                                         </div>
@@ -135,15 +135,16 @@
                                     <div class="single-skill">
                                         <div class="after-li">
                                             <div class="singel-hr">
-                                                <div class="singel-hr-inner" data-height="60%">
+                                                <div class="singel-hr-inner" data-height="100%">
                                                     <div class="skill-visiable">
-                                                        <span class="skill-title">JavaScript</span>
+                                                        <span class="skill-title">Lumen</span>
                                                         <div class="hr-wrap">
+
                                                             <div class="hrc"></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <span class="skill-count">60%</span>
+                                                <span class="skill-count">100%</span>
                                             </div>
                                         </div>
                                     </div>
@@ -153,16 +154,16 @@
                                     <div class="single-skill">
                                         <div class="after-li">
                                             <div class="singel-hr">
-                                                <div class="singel-hr-inner" data-height="85%">
+                                                <div class="singel-hr-inner" data-height="95%">
                                                     <div class="skill-visiable">
-                                                        <span class="skill-title">Illustrator</span>
+                                                        <span class="skill-title">PHP</span>
                                                         <div class="hr-wrap">
 
                                                             <div class="hrc"></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <span class="skill-count">85%</span>
+                                                <span class="skill-count">95%</span>
                                             </div>
                                         </div>
                                     </div>
@@ -172,15 +173,15 @@
                                     <div class="single-skill">
                                         <div class="after-li">
                                             <div class="singel-hr">
-                                                <div class="singel-hr-inner" data-height="65%">
+                                                <div class="singel-hr-inner" data-height="95%">
                                                     <div class="skill-visiable">
-                                                        <span class="skill-title">HTML</span>
+                                                        <span class="skill-title">Linux</span>
                                                         <div class="hr-wrap">
                                                             <div class="hrc"></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <span class="skill-count">65%</span>
+                                                <span class="skill-count">95%</span>
                                             </div>
                                         </div>
                                     </div>
@@ -190,15 +191,15 @@
                                     <div class="single-skill">
                                         <div class="after-li">
                                             <div class="singel-hr">
-                                                <div class="singel-hr-inner" data-height="60%">
+                                                <div class="singel-hr-inner" data-height="90%">
                                                     <div class="skill-visiable">
-                                                        <span class="skill-title">JavaScript</span>
+                                                        <span class="skill-title">Git</span>
                                                         <div class="hr-wrap">
                                                             <div class="hrc"></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <span class="skill-count">60%</span>
+                                                <span class="skill-count">90%</span>
                                             </div>
                                         </div>
                                     </div>
@@ -208,7 +209,7 @@
                                     <div class="single-skill">
                                         <div class="after-li">
                                             <div class="singel-hr">
-                                                <div class="singel-hr-inner" data-height="35%">
+                                                <div class="singel-hr-inner" data-height="95%">
                                                     <div class="skill-visiable">
                                                         <span class="skill-title">CSS</span>
                                                         <div class="hr-wrap">
@@ -216,7 +217,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <span class="skill-count">35%</span>
+                                                <span class="skill-count">95%</span>
                                             </div>
                                         </div>
                                     </div>
@@ -226,16 +227,15 @@
                                     <div class="single-skill">
                                         <div class="after-li">
                                             <div class="singel-hr">
-                                                <div class="singel-hr-inner" data-height="85%">
+                                                <div class="singel-hr-inner" data-height="100%">
                                                     <div class="skill-visiable">
-                                                        <span class="skill-title">Illustrator</span>
+                                                        <span class="skill-title">HTML</span>
                                                         <div class="hr-wrap">
-
                                                             <div class="hrc"></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <span class="skill-count">85%</span>
+                                                <span class="skill-count">100%</span>
                                             </div>
                                         </div>
                                     </div>
@@ -245,52 +245,16 @@
                                     <div class="single-skill">
                                         <div class="after-li">
                                             <div class="singel-hr">
-                                                <div class="singel-hr-inner" data-height="60%">
+                                                <div class="singel-hr-inner" data-height="75%">
                                                     <div class="skill-visiable">
-                                                        <span class="skill-title">Wordpress</span>
-                                                        <div class="hr-wrap">
-                                                            <div class="hrc"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <span class="skill-count">60%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /single skill-->
-
-                                    <!-- single skill -->
-                                    <div class="single-skill">
-                                        <div class="after-li">
-                                            <div class="singel-hr">
-                                                <div class="singel-hr-inner" data-height="85%">
-                                                    <div class="skill-visiable">
-                                                        <span class="skill-title">Illustrator</span>
+                                                        <span class="skill-title">JavaScript/JQuery</span>
                                                         <div class="hr-wrap">
 
                                                             <div class="hrc"></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <span class="skill-count">85%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /single skill-->
-
-                                    <!-- single skill -->
-                                    <div class="single-skill">
-                                        <div class="after-li">
-                                            <div class="singel-hr">
-                                                <div class="singel-hr-inner" data-height="60%">
-                                                    <div class="skill-visiable">
-                                                        <span class="skill-title">JavaScript</span>
-                                                        <div class="hr-wrap">
-                                                            <div class="hrc"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <span class="skill-count">60%</span>
+                                                <span class="skill-count">75%</span>
                                             </div>
                                         </div>
                                     </div>
