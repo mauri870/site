@@ -139,17 +139,14 @@
                 <div class="col-sm-12">
                     <div class="clearfix footer-inner">
                         <ul class="left social-icons">
-                            <li><a href="index.html#" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                            <li>
+                                <a href="https://plus.google.com/+MauriSN870" target="_blank" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Google Plus"><i class="fa fa-google-plus"></i></a>
                             </li>
-                            <li><a href="index.html#" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkdin"><i class="fa fa-linkedin"></i></a>
+                            <li>
+                                <a href="https://br.linkedin.com/pub/mauri-de-souza-nunes/90/230/b2" target="_blank" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkedin"><i class="fa fa-linkedin"></i></a>
                             </li>
-                            <li><a href="index.html#" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="index.html#" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Google Plus"><i class="fa fa-google-plus"></i></a>
-                            </li>
-                            <li><a href="index.html#" class="tooltips tooltipped dribbble" data-position="top" data-delay="50" data-tooltip="Dribbble"><i class="fa fa-dribbble"></i></a>
-                            </li>
-                            <li><a href="index.html#" class="tooltips tooltipped behance" data-position="top" data-delay="50" data-tooltip="Behance"><i class="fa fa-behance"></i></a>
+                            <li>
+                                <a href="https://github.com/mauri870" target="_blank" class="tooltips tooltipped behance" data-position="top" data-delay="50" data-tooltip="Github"><i class="fa fa-github"></i></a>
                             </li>
                         </ul> <!-- ./social icons end -->
                         <div class="right copyright">
