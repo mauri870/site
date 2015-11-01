@@ -47,7 +47,7 @@
                     <div class="person-about">
                         <h3 class="about-subtitle">{{ trans('menu.about') }}</h3>
                         <p>
-                            {!! trans('home.resume') !!}
+                            {!! trans('home.resume',['dev_time'=>$dev_time])!!}
                         </p>
                         <a class="waves-effect waves-light btn-large brand-bg white-text"><i class="mdi-content-archive left"></i> Download CV</a>
                     </div>
