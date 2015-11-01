@@ -7,3 +7,6 @@ Route::group([
     //Localized routes
     Route::get('/', ['as' => 'home.index', 'uses' => 'HomeController@index']);
 });
+
+//Blog
+Route::get('blog', ['as' => 'blog', 'uses' => 'BlogController@index']);
