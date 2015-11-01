@@ -170,11 +170,6 @@ return [
          * */
         Laracasts\Flash\FlashServiceProvider::class,
 
-        /*
-         * Vluzrmos Language Detector
-         * */
-        Vluzrmos\LanguageDetector\Providers\LanguageDetectorServiceProvider::class
-
     ],
 
     /*

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ecd853097186f57955139602bcc58f7",
-    "content-hash": "c4fcaaac62ca190dedc99842542a7754",
+    "hash": "17a5c96ceed7d6e77d72b02f83a2ba20",
+    "content-hash": "141f7a7800b91ce4471c2f043874fdca",
     "packages": [
         {
             "name": "anhskohbo/no-captcha",
@@ -2166,60 +2166,6 @@
                 "environment"
             ],
             "time": "2015-05-30 15:59:26"
-        },
-        {
-            "name": "vluzrmos/language-detector",
-            "version": "v1.0.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vluzrmos/laravel-language-detector.git",
-                "reference": "9b07dffb0f4f5a55cd55de94830e52792e1ca456"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vluzrmos/laravel-language-detector/zipball/9b07dffb0f4f5a55cd55de94830e52792e1ca456",
-                "reference": "9b07dffb0f4f5a55cd55de94830e52792e1ca456",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/config": "~5.0",
-                "illuminate/support": "~5.0",
-                "illuminate/translation": "~5.0"
-            },
-            "require-dev": {
-                "fabpot/php-cs-fixer": "~2.0",
-                "mockery/mockery": "0.9.*",
-                "orchestra/testbench": "~3.0",
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "package",
-            "autoload": {
-                "psr-4": {
-                    "Vluzrmos\\LanguageDetector\\": "src/"
-                },
-                "files": [
-                    "src/Support/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Vagner do Carmo",
-                    "email": "vluzrmos@gmail.com"
-                }
-            ],
-            "description": "Detect the language for your application using browser preferences, subdomains or route prefixes.",
-            "keywords": [
-                "i18n",
-                "language",
-                "laravel",
-                "locale",
-                "lumen"
-            ],
-            "time": "2015-07-22 14:07:43"
         }
     ],
     "packages-dev": [
