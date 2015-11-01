@@ -12,8 +12,8 @@
                 <div class="col-sm-12">
                     <div class="home-inner">
                         <div class="center-align home-content">
-                            <h1 class="home-title">HI! I'm <span>John Doe</span></h1>
-                            <h2 class="home-subtitle">UX/UI Designer from Dhaka, Bangladesh</h2>
+                            <h1 class="home-title"><span id="typer_i_am"></span></h1>
+                            <h2 class="home-subtitle">Desenvolvedor</h2>
                             <a href="index.html#contact" class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text">Hire Me <i class="mdi-content-send left"></i>
                             </a>
                         </div>
@@ -1236,4 +1236,11 @@
     </div>
 </section>
 <!-- #contact Section end -->
+@stop
+@section('scripts')
+    <script>
+        $(document).ready(function () {
+                $('#typer_i_am').typer(['PHP', 'Laravel', 'github.com/mauri870']);
+        });
+    </script>
 @stop

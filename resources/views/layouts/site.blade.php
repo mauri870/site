@@ -95,19 +95,17 @@
                                     </li><!-- mini profile end-->
 
 
-                                    <li><a href="index.html#about" data-section="#about" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>About Me</a>
+                                    <li><a href="index.html#about" data-section="#about" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>{{ trans('menu.about') }}</a>
                                     </li>
-                                    <li><a href="index.html#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Resume</a>
+                                    <li><a href="index.html#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>{{ trans('menu.skills') }}</a>
                                     </li>
-                                    <li><a href="index.html#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>Portfolio</a>
+                                    <li><a href="index.html#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>{{ trans('menu.portfolio') }}</a>
                                     </li>
-                                    <li><a href="index.html#team" data-section="#team" class="menu-smooth-scroll"><i class="fa fa-users fa-fw"></i>Team</a>
-                                    </li>
-                                    <li><a href="index.html#testimonial" data-section="#testimonial" class="menu-smooth-scroll"><i class="fa fa-comments fa-fw"></i>Testimonial</a>
+                                    <li><a href="index.html#testimonial" data-section="#testimonial" class="menu-smooth-scroll"><i class="fa fa-comments fa-fw"></i>{{ trans_choice('menu.testimonial',2) }}</a>
                                     </li>
                                     <li><a href="index.html#blog" data-section="#blog" class="menu-smooth-scroll"><i class="fa fa-pencil fa-fw"></i>Blog</a>
                                     </li>
-                                    <li><a href="index.html#contact" data-section="#contact" class="menu-smooth-scroll"><i class="fa fa-paper-plane fa-fw"></i>Contact</a>
+                                    <li><a href="index.html#contact" data-section="#contact" class="menu-smooth-scroll"><i class="fa fa-paper-plane fa-fw"></i>{{ trans('menu.contact') }}</a>
                                     </li>
                                 </ul>
                                 <ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
@@ -184,6 +182,7 @@
 <script src="{{ asset('js/sweetalert.min.js') }}"></script>
 <script src="{{ asset('js/common.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/typed.js') }}"></script>
 @yield('scripts')
 </body>
 
