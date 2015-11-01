@@ -14,5 +14,9 @@ return [
 
     //Skills
     'skills_phrase'=>'O preço do sucesso: dedicação, trabalho duro, e uma incessante devoção às coisas que você quer ver acontecer.',
-    ''=>'',
+
+    //Experience
+    'job_time_1'=>'Junho 2015 - Presente',
+    'job_1'=>'Laravel/Lumen e Web Designer',
+    'job_desc_1'=>'Nesta empresa trabalho desenvolvendo websites e sistemas web utilizando os frameworks Laravel 5.1, Lumen e Bootstrap. Como único desenvolvedor lido com todas as áreas, Banco de Dados (PDO), FrontEnd (Html, Css, JavaScript, Bootstrap, Jquery...) e PHP(Laravel 5.1 e Lumen) com foco em mobile first.',
 ];

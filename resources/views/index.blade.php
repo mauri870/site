@@ -284,8 +284,8 @@
                         <div class="row">
                             <div class="clearfix section-head experience-text">
                                 <div class="col-sm-12">
-                                    <h2 class="title">Experience</h2>
-                                    <p class="regular-text">Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+                                    <h2 class="title">{{ trans('menu.experience') }}</h2>
+                                    <p class="regular-text"></p>
                                 </div>
                             </div>
                             <div class="col-lg-12">
@@ -295,114 +295,22 @@
                                             <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
                                                 <div class="card">
                                                     <div class="card-image waves-effect waves-block waves-light">
-                                                        <h2 class="left-align card-title-top">January 2014 - Present</h2>
+                                                        <h2 class="left-align card-title-top">{{ trans('home.job_time_1') }}</h2>
                                                         <div class="valign-wrapper card-img-wrap">
                                                             <img class="activator" src="images/ghost_rider.jpg" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="card-content">
-                                                        <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
-                                                        <p>Apple.inc</p>
+                                                        <span class="card-title activator brand-text">{{ trans('home.job_1') }}<i class="mdi-navigation-more-vert right"></i></span>
+                                                        <p>DigitalSerra Tecnologia Digital</p>
                                                     </div>
                                                     <div class="card-reveal">
                                                         <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
-                                                            <p>Apple.inc</p>
+                                                            <span class="card-title activator brand-text">{{ trans('home.job_1') }}<i class="mdi-navigation-close right"></i></span>
+                                                            <p>DigitalSerra Tecnologia Digital</p>
                                                         </div>
                                                         <p class="rev-content">
-                                                            Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
-                                                <div class="card">
-                                                    <div class="card-image waves-effect waves-block waves-light">
-                                                        <h2 class="left-align card-title-top">January 2014 - Present</h2>
-                                                        <div class="valign-wrapper card-img-wrap">
-                                                            <img class="activator" src="images/lion.jpg" alt="">
-                                                        </div>
-                                                    </div>
-                                                    <div class="card-content">
-                                                        <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
-                                                        <p>Android One</p>
-                                                    </div>
-                                                    <div class="card-reveal">
-                                                        <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
-                                                            <p>Android One</p>
-                                                        </div>
-                                                        <p class="rev-content">
-                                                            Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
-                                                <div class="card">
-                                                    <div class="card-image waves-effect waves-block waves-light">
-                                                        <h2 class="left-align card-title-top">January 2014 - Present</h2>
-                                                        <div class="valign-wrapper card-img-wrap">
-                                                            <img class="activator" src="images/bull.jpg" alt="">
-                                                        </div>
-                                                    </div>
-                                                    <div class="card-content">
-                                                        <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
-                                                        <p>Android One</p>
-                                                    </div>
-                                                    <div class="card-reveal">
-                                                        <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
-                                                            <p>Android One</p>
-                                                        </div>
-                                                        <p class="rev-content">
-                                                            Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 cold-xs-12 single-card-box">
-                                                <div class="card">
-                                                    <div class="card-image waves-effect waves-block waves-light">
-                                                        <h2 class="left-align card-title-top">January 2014 - Present</h2>
-                                                        <div class="valign-wrapper card-img-wrap">
-                                                            <img class="activator" src="images/beakers.jpg" alt="">
-                                                        </div>
-                                                    </div>
-                                                    <div class="card-content">
-                                                        <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
-                                                        <p>Windows Phone</p>
-                                                    </div>
-                                                    <div class="card-reveal">
-                                                        <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
-                                                            <p>Windows Phone</p>
-                                                        </div>
-                                                        <p class="rev-content">
-                                                            Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 cold-xs-12 single-card-box">
-                                                <div class="card">
-                                                    <div class="card-image waves-effect waves-block waves-light">
-                                                        <h2 class="left-align card-title-top">January 2014 - Present</h2>
-                                                        <div class="valign-wrapper card-img-wrap">
-                                                            <img class="activator" src="images/kid.jpg" alt="">
-                                                        </div>
-                                                    </div>
-                                                    <div class="card-content">
-                                                        <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
-                                                        <p>Windows Phone</p>
-                                                    </div>
-                                                    <div class="card-reveal">
-                                                        <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
-                                                            <p>Windows Phone</p>
-                                                        </div>
-                                                        <p class="rev-content">
-                                                            Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing.
+                                                            {{ trans('home.job_desc_1') }}
                                                         </p>
                                                     </div>
                                                 </div>

@@ -101,6 +101,8 @@
                                     </li>
                                     <li><a href="index.html#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>{{ trans('menu.skills') }}</a>
                                     </li>
+                                    <li><a href="index.html#education" data-section="#education" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>{{ trans('menu.education') }}</a>
+                                    </li>
                                     <li><a href="index.html#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>{{ trans('menu.portfolio') }}</a>
                                     </li>
                                     <li><a href="index.html#testimonial" data-section="#testimonial" class="menu-smooth-scroll"><i class="fa fa-comments fa-fw"></i>{{ trans_choice('menu.testimonial',2) }}</a>
