@@ -629,10 +629,10 @@
                             <div class="feature-box-outer">
                                 <div class="funfact-box-inner">
                                     <div class="clearfix ">
-                                        <i class="mdi-editor-insert-emoticon"></i>
-                                        <span class="num countNumb">150</span>
+                                        <i class="fa fa-github"></i>
+                                        <span class="num countNumb">{{ $public_repos }}</span>
                                     </div>
-                                    <div class="context">Happy clients</div>
+                                    <div class="context">Github Repos</div>
                                 </div>
                             </div>
                         </div>
@@ -642,10 +642,10 @@
                             <div class="feature-box-outer">
                                 <div class="funfact-box-inner">
                                     <div class="clearfix ">
-                                        <i class="mdi-action-wallet-travel"></i>
-                                        <span class="num countNumb">230</span>
+                                        <i class="fa fa-cloud-upload"></i>
+                                        <span class="num countNumb">{{ $commits }}</span>
                                     </div>
-                                    <div class="context">Project Completed</div>
+                                    <div class="context">{{ trans('home.commits') }}</div>
                                 </div>
                             </div>
                         </div>
