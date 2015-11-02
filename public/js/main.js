@@ -739,6 +739,7 @@ if ( $countNumb.length > 0 ) {
 
 
 
+/*
 $('#contactForm').on('submit', function(e){
 	e.preventDefault();
 	var $this = $(this),
@@ -801,4 +802,4 @@ $('#contactForm').on('submit', function(e){
 			clearTimeout(hand);
 		}, 1000);
 	});
-});
+});*/
