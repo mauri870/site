@@ -90,10 +90,12 @@ class HomeController extends Controller
     public function getGithubInfo(){
         if(!Cache::has('public_repos')){
             $public_repos = GitHub::me()->show()['public_repos'];
-            $commits = array_shift(GitHub::repo()->statistics('mauri870','site'))['total'];
+            $commits = GitHub::repo()->statistics('mauri870','site');
+
+            $commits_total = array_shift($commits)['total'];
 
             Cache::put('public_repos', $public_repos, 30);
-            Cache::put('commits', $commits, 30);
+            Cache::put('commits', $commits_total, 30);
         }
     }
 }
