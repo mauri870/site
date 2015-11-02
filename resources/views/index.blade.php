@@ -883,30 +883,25 @@
                             <!-- Contact Form start -->
                             <div class="col-sm-5">
                                 <div class="clearfix card-panel grey lighten-5 cform-wrapper">
-                                    <form action="index.html#" id="contactForm" novalidate>
+                                    {!! Form::open(['url'=>route('home.contact'),'id'=>'contactForm']) !!}
                                         <div class="input-field">
-                                            <input id="contact_name" type="text" name="contactName" class="validate input-box">
-                                            <label for="contact_name" class="input-label">Name</label>
+                                            {!! Form::text('name',null,['class'=>'input-box']) !!}
+                                            {!! Form::label('name',trans('home.contact_name'),['class'=>'input-label']) !!}
                                         </div>
                                         <div class="input-field">
-                                            <input id="email" type="email" name="contactEmail" class="validate input-box">
-                                            <label for="email" class="input-label">Email</label>
+                                            {!! Form::text('email',null,['class'=>'input-box']) !!}
+                                            {!! Form::label('email','Email',['class'=>'input-label']) !!}
                                         </div>
                                         <div class="input-field">
-                                            <input id="subject" type="text" name="contactSubject" class="validate input-box">
-                                            <label for="subject" class="input-label">Subject</label>
+                                            {!! Form::text('subject',null,['class'=>'input-box']) !!}
+                                            {!! Form::label('subject',trans('home.contact_subject'),['class'=>'input-label']) !!}
                                         </div>
                                         <div class="input-field textarea-input">
-                                            <textarea id="textarea1" name="contactMessage" class="validate materialize-textarea" style="height: 22px;"></textarea>
-                                            <label for="textarea1" class="input-label">Message</label>
+                                            {!! Form::textarea('message',null,['class'=>'materialize-textarea','style'=>'height: 22px;']) !!}
+                                            {!! Form::label('message',trans('home.contact_message'),['class'=>'input-label']) !!}
                                         </div>
                                         <div class="input-field submit-wrap clearfix">
-                                            <button type="submit" class="left waves-effect btn-flat brand-text submit-btn">send message</button>
-                                            <div class="right form-loader-area">
-                                                <svg class="circular size-20" height="20" width="20">
-                                                    <circle class="path" cx="10" cy="10" r="7" fill="none" stroke-width="3" stroke-miterlimit="10" />
-                                                </svg>
-                                            </div>
+                                            <button type="submit" class="left waves-effect btn-flat brand-text submit-btn">{{ trans('home.contact_submit_button') }}</button>
                                         </div>
                                     </form>
                                 </div>
