@@ -19,4 +19,8 @@ return [
     'job_time_1'=>'June 2015 - Present',
     'job_1'=>'Laravel/Lumen and Web Designer',
     'job_desc_1'=>'In this company i work developing websites and web systems using Laravel 5.1, Lumen and Bootstrap . As the only developer i deal with all areas, Database ( PDO ) , FrontEnd ( HTML, CSS, JavaScript, Bootstrap , jQuery ... ) and PHP ( Laravel 5.1 and Lumen ) focusing on mobile first .',
+
+    //Education
+    'educ_course_1'=>'I.T - Web Development',
+    'educ_course_desc_1'=>'Incomplete degree in web development, HTML , CSS , JavaScript / JQuery , PHP and database.',
 ];

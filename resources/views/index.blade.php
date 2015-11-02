@@ -338,8 +338,8 @@
                         <div class="row">
                             <div class="clearfix section-head education-text">
                                 <div class="col-sm-12">
-                                    <h2 class="title">education</h2>
-                                    <p class="regular-text">Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+                                    <h2 class="title">{{ trans('menu.education') }}</h2>
+                                    <p class="regular-text"></p>
                                 </div>
                             </div>
                             <div class="col-lg-12">
@@ -351,23 +351,23 @@
                                             <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
                                                 <div class="card">
                                                     <div class="card-image waves-effect waves-block waves-light">
-                                                        <h2 class="left-align card-title-top">20011 - 2012</h2>
+                                                        <h2 class="left-align card-title-top">2013</h2>
                                                         <div class="card-img-wrap">
-                                                            <img class="activator" src="images/grad-cap.png" alt="">
+                                                            <img class="activator" src="{{ asset('images/grad-cap.png') }}" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="card-content">
-                                                        <span class="card-title activator brand-text">Masters of Science<i class="mdi-navigation-more-vert right"></i></span>
-                                                        <p>Oxford University</p>
+                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_1') }}<i class="mdi-navigation-more-vert right"></i></span>
+                                                        <p>Ftec</p>
                                                     </div>
                                                     <!-- Reveal content-->
                                                     <div class="card-reveal">
                                                         <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">Masters of Science<i class="mdi-navigation-close right"></i></span>
-                                                            <p>Oxford University</p>
+                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_1') }}<i class="mdi-navigation-close right"></i></span>
+                                                            <p>Ftec</p>
                                                         </div>
                                                         <p class="rev-content">
-                                                            Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing.
+                                                            {{ trans('home.educ_course_desc_1') }}
                                                         </p>
                                                     </div>
                                                 </div>
