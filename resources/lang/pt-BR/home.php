@@ -38,4 +38,8 @@ return [
 
     //Contact
     'contact'=>'Contato',
+    'contact_name'=>'Nome',
+    'contact_subject'=>'Assunto',
+    'contact_message'=>'Mensagem',
+    'contact_submit_button'=>'Enviar',
 ];
