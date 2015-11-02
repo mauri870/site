@@ -6,6 +6,7 @@ Route::group([
 ], function() {
     //Localized routes
     Route::get('/', ['as' => 'home.index', 'uses' => 'HomeController@index']);
+    Route::post('/contact', ['as' => 'home.contact', 'uses' => 'HomeController@contact']);
 });
 
 //Blog
