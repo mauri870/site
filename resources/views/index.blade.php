@@ -858,14 +858,14 @@
                     <div class="row">
                         <div class="clearfix section-head contact-text">
                             <div class="col-sm-12">
-                                <h2 class="title">Contact</h2>
-                                <p class="regular-text">Collins Street West Victoria 8007 Australia</p>
+                                <h2 class="title">{{ trans('home.contact') }}</h2>
+                                <p class="regular-text">Cristiano Ziegler Filho, 341, Bento Gonçalves, RS, Brasil</p>
                                 <ul class="clearfix contact-info">
-                                    <li><a href="index.html">+880 1234 567890</a>
+                                    <li><a href="tel:+55 54 8118-9792">+55 54 8118-9792</a>
                                     </li>
-                                    <li><a href="index.html">support@website.net</a>
+                                    <li><a href="mailto:{{ env('MAIL_ADMIN') }}">{{ env('MAIL_ADMIN') }}</a>
                                     </li>
-                                    <li><a href="index.html">www.website.net</a>
+                                    <li><a href="{{ env('APP_URL') }}">{{ env('APP_URL') }}</a>
                                     </li>
                                 </ul>
                             </div>
