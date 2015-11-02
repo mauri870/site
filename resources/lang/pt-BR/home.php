@@ -35,4 +35,7 @@ return [
 
     //Fun
     'commits'=>'Commits neste projeto',
+
+    //Contact
+    'contact'=>'Contato',
 ];
