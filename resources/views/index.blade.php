@@ -624,7 +624,7 @@
         <div class="container">
             <div class="row">
                 <div class="funfact-inner">
-                    <div class="col-sm-4 funfact-box">
+                    <div class="col-sm-6 funfact-box">
                         <div class="center-align card-panel white">
                             <div class="feature-box-outer">
                                 <div class="funfact-box-inner">
@@ -637,7 +637,7 @@
                             </div>
                         </div>
                     </div> <!-- ./single fun fact box -->
-                    <div class="col-sm-4 funfact-box">
+                    <div class="col-sm-6     funfact-box">
                         <div class="center-align card-panel white">
                             <div class="feature-box-outer">
                                 <div class="funfact-box-inner">
@@ -646,19 +646,6 @@
                                         <span class="num countNumb">{{ $commits }}</span>
                                     </div>
                                     <div class="context">{{ trans('home.commits') }}</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- ./single fun fact box -->
-                    <div class="col-sm-4 funfact-box">
-                        <div class="center-align card-panel white">
-                            <div class="feature-box-outer">
-                                <div class="funfact-box-inner">
-                                    <div class="clearfix ">
-                                        <i class="mdi-action-wallet-giftcard"></i>
-                                        <span class="num countNumb">79</span>
-                                    </div>
-                                    <div class="context">Award Won</div>
                                 </div>
                             </div>
                         </div>
