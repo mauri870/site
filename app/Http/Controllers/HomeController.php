@@ -66,7 +66,7 @@ class HomeController extends Controller
                 ->withInput();
         }
 
-        /*Mail::send('emails.templates.contact',
+        Mail::send('emails.templates.contact',
             [
                 'site_domain' => env('SITE_DOMAIN',null),
                 'name' => $request->get('name'),
@@ -78,7 +78,7 @@ class HomeController extends Controller
                 $mail->to(env('MAIL_USERNAME', null), 'Site Admin')->subject('Contato do site '.env('SITE_DOMAIN',null));
             });
         //Log Users action
-        \Log::info('Usuário com ip '.$request->getClientIp(). ' enviou um email pelo site');*/
+        \Log::info('Usuário com ip '.$request->getClientIp(). ' enviou um email pelo site');
 
         Flash::success(trans('home.contact_success_message'));
         return redirect()->to(route('home.index').'#contact');
