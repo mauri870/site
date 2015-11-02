@@ -175,6 +175,11 @@ return [
          * */
         Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
 
+        /*
+         * GitHub Laravel 5
+         * */
+        GrahamCampbell\GitHub\GitHubServiceProvider::class,
+
     ],
 
     /*
@@ -240,6 +245,8 @@ return [
         //Localization
         'LaravelLocalization'   => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
 
+        //Github Laravel
+        'GitHub' => GrahamCampbell\GitHub\Facades\GitHub::class,
     ],
 
 ];
