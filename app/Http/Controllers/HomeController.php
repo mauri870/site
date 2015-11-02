@@ -9,6 +9,9 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Validator;
+use Laracasts\Flash\Flash;
 
 class HomeController extends Controller
 {
@@ -34,6 +37,52 @@ class HomeController extends Controller
         return view('index',compact('my_age','dev_time','public_repos','commits'));
     }
 
+
+    /**
+     * Send an mail for form contact
+     * @param Request $request
+     * @return $this|\Illuminate\Http\RedirectResponse
+     */
+    public function contact(Request $request)
+    {
+        $rules = [
+            'name'=>'required|min:3',
+            'email'=>'required|email',
+            'subject'=>'required',
+            'message'=>'required'
+        ];
+        $attributes = [
+            'name'=>strtolower(trans('home.contact_name')),
+            'email'=>'email',
+            'subject'=>strtolower(trans('home.contact_subject')),
+            'message'=>strtolower(trans('home.contact_message'))
+        ];
+        $validator = Validator::make($request->all(),$rules);
+        $validator->setAttributeNames($attributes);
+        if($validator->fails()){
+            return redirect()
+                ->to(route('home.index').'#contact')
+                ->withErrors($validator->errors())
+                ->withInput();
+        }
+
+        Mail::send('emails.templates.contact',
+            [
+                'site_domain' => env('SITE_DOMAIN',null),
+                'name' => $request->get('name'),
+                'email' => $request->get('email'),
+                'subject' => $request->get('subject'),
+                'email_message' => $request->get('message')
+            ], function($mail){
+                $mail->from(env('MAIL_USERNAME', null));
+                $mail->to(env('MAIL_USERNAME', null), 'Site Admin')->subject('Contato do site '.env('SITE_DOMAIN',null));
+            });
+        //Log Users action
+        \Log::info('Usuário com ip '.$request->getClientIp(). ' enviou um email pelo site');
+
+        Flash::success('Obrigado pelo contato');
+        return redirect()->to(route('home.index').'#contact');
+    }
 
     /**
      * Get profile basic info and cached info
