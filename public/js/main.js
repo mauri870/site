@@ -567,8 +567,8 @@ $(document).ready(function($){
 	if ( $mapWrapper.length > 0 ) {
 		var map = new GMaps({
 			div: '#map',
-			lat : 23.79473005386213,
-			lng : 90.41430473327637,
+			lat : -29.190302,
+			lng : -51.513285,
 			scrollwheel: false,
 			draggable: draggableOp,
 			zoom: 16,
@@ -577,8 +577,8 @@ $(document).ready(function($){
 		});
 
 		map.addMarker({
-			lat : 23.79473005386213,
-			lng : 90.41430473327637,
+			lat : -29.190302,
+			lng : -51.513285,
 			icon: 'images/marker-icon.png',
 			infoWindow: {
 				content: '<p>BD InfoSys Ltd, Dhaka, Bangladesh</p>'
