@@ -21,17 +21,20 @@ return [
     'job_desc_1'=>'Nesta empresa trabalho desenvolvendo websites e sistemas web utilizando os frameworks Laravel 5.1, Lumen e Bootstrap. Como único desenvolvedor lido com todas as áreas, Banco de Dados (PDO), FrontEnd (Html, Css, JavaScript, Bootstrap, Jquery...) e PHP(Laravel 5.1 e Lumen) com foco em mobile first.',
 
     //Education
-    'educ_course_1'=>'T.I - Desenvolvimento web',
-    'educ_course_desc_1'=>'Curso superior incompleto em desenvolvimento web, HTML, CSS, JavaScript/JQuery, PHP e Banco de dados.',
+    'educ_course_ti'=>'T.I - Desenvolvimento web',
+    'educ_course_desc_ti'=>'Curso superior incompleto em desenvolvimento web, HTML, CSS, JavaScript/JQuery, PHP e Banco de dados.',
 
-    'educ_course_2'=>'Linux para desenvolvedores',
-    'educ_course_desc_2'=>'Certificado de módulo, 16 horas',
+    'educ_course_linux'=>'Linux para desenvolvedores',
+    'educ_course_desc_linux'=>'Certificado de módulo, 16 horas',
 
-    'educ_course_3'=>'Amazon Web Services',
-    'educ_course_desc_3'=>'Certificado de módulo, 16 horas',
+    'educ_course_aws'=>'Amazon Web Services',
+    'educ_course_desc_aws'=>'Certificado de módulo, 16 horas',
 
-    'educ_course_4'=>'Lumen Framework',
-    'educ_course_desc_4'=>'Certificado de módulo, 8 horas',
+    'educ_course_lumen'=>'Lumen Framework',
+    'educ_course_desc_lumen'=>'Certificado de módulo, 8 horas',
+
+    'educ_course_laravel'=>'Laravel Framework',
+    'educ_course_desc_laravel'=>'Certificado de módulo, 10 horas',
 
     //Fun
     'commits'=>'Commits neste projeto',
