@@ -357,17 +357,17 @@
                                                         </div>
                                                     </div>
                                                     <div class="card-content">
-                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_1') }}<i class="mdi-navigation-more-vert right"></i></span>
+                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_ti') }}<i class="mdi-navigation-more-vert right"></i></span>
                                                         <p>Ftec</p>
                                                     </div>
                                                     <!-- Reveal content-->
                                                     <div class="card-reveal">
                                                         <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_1') }}<i class="mdi-navigation-close right"></i></span>
+                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_ti') }}<i class="mdi-navigation-close right"></i></span>
                                                             <p>Ftec</p>
                                                         </div>
                                                         <p class="rev-content">
-                                                            {{ trans('home.educ_course_desc_1') }}
+                                                            {{ trans('home.educ_course_desc_ti') }}
                                                         </p>
                                                     </div>
                                                 </div>
@@ -383,17 +383,17 @@
                                                         </div>
                                                     </div>
                                                     <div class="card-content">
-                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_2') }}<i class="mdi-navigation-more-vert right"></i></span>
+                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_laravel') }}<i class="mdi-navigation-more-vert right"></i></span>
                                                         <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                     </div>
                                                     <!-- Reveal content-->
                                                     <div class="card-reveal">
                                                         <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_2') }}<i class="mdi-navigation-close right"></i></span>
+                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_laravel') }}<i class="mdi-navigation-close right"></i></span>
                                                             <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                         </div>
                                                         <p class="rev-content">
-                                                            {{ trans('home.educ_course_desc_2') }}
+                                                            {{ trans('home.educ_course_desc_laravel') }}
                                                         </p>
                                                     </div>
                                                 </div>
@@ -409,17 +409,17 @@
                                                         </div>
                                                     </div>
                                                     <div class="card-content">
-                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_3') }}<i class="mdi-navigation-more-vert right"></i></span>
+                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_aws') }}<i class="mdi-navigation-more-vert right"></i></span>
                                                         <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                     </div>
                                                     <!-- Reveal content-->
                                                     <div class="card-reveal">
                                                         <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_3') }}<i class="mdi-navigation-close right"></i></span>
+                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_aws') }}<i class="mdi-navigation-close right"></i></span>
                                                             <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                         </div>
                                                         <p class="rev-content">
-                                                            {{ trans('home.educ_course_desc_3') }}
+                                                            {{ trans('home.educ_course_desc_aws') }}
                                                         </p>
                                                     </div>
                                                 </div>
@@ -435,17 +435,43 @@
                                                         </div>
                                                     </div>
                                                     <div class="card-content">
-                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_4') }}<i class="mdi-navigation-more-vert right"></i></span>
+                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_lumen') }}<i class="mdi-navigation-more-vert right"></i></span>
                                                         <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                     </div>
                                                     <!-- Reveal content-->
                                                     <div class="card-reveal">
                                                         <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_4') }}<i class="mdi-navigation-close right"></i></span>
+                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_lumen') }}<i class="mdi-navigation-close right"></i></span>
                                                             <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                         </div>
                                                         <p class="rev-content">
-                                                            {{ trans('home.educ_course_desc_4') }}
+                                                            {{ trans('home.educ_course_desc_lumen') }}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- single education end -->
+
+                                            <!-- single education -->
+                                            <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                                                <div class="card">
+                                                    <div class="card-image waves-effect waves-block waves-light">
+                                                        <h2 class="left-align card-title-top">2015</h2>
+                                                        <div class="card-img-wrap">
+                                                            <img class="activator" src="{{ asset('images/cert.png') }}" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_linux') }}<i class="mdi-navigation-more-vert right"></i></span>
+                                                        <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
+                                                    </div>
+                                                    <!-- Reveal content-->
+                                                    <div class="card-reveal">
+                                                        <div class="rev-title-wrap">
+                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_linux') }}<i class="mdi-navigation-close right"></i></span>
+                                                            <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
+                                                        </div>
+                                                        <p class="rev-content">
+                                                            {{ trans('home.educ_course_desc_linux') }}
                                                         </p>
                                                     </div>
                                                 </div>
