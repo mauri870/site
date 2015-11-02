@@ -105,8 +105,6 @@
                                     </li>
                                     <li><a href="index.html#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>{{ trans('menu.portfolio') }}</a>
                                     </li>
-                                    <li><a href="index.html#testimonial" data-section="#testimonial" class="menu-smooth-scroll"><i class="fa fa-comments fa-fw"></i>{{ trans_choice('menu.testimonial',2) }}</a>
-                                    </li>
                                     <li><a href="index.html#blog" data-section="#blog" class="menu-smooth-scroll"><i class="fa fa-pencil fa-fw"></i>Blog</a>
                                     </li>
                                     <li><a href="index.html#contact" data-section="#contact" class="menu-smooth-scroll"><i class="fa fa-paper-plane fa-fw"></i>{{ trans('menu.contact') }}</a>
