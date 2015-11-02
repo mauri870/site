@@ -32,4 +32,7 @@ return [
 
     'educ_course_4'=>'Lumen Framework',
     'educ_course_desc_4'=>'Certificado de módulo, 8 horas',
+
+    //Fun
+    'commits'=>'Commits neste projeto',
 ];
