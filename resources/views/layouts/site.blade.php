@@ -89,10 +89,10 @@
                                     <li class="mobile-profile">
                                         <div class="profile-inner">
                                             <div class="pp-container">
-                                                <img src="images/person.jpg" alt="">
+                                                <img src="images/me.jpg" alt="">
                                             </div>
-                                            <h3>John Doe</h3>
-                                            <h5>Creative UI/UX Expert</h5>
+                                            <h3>Mauri de Souza Nunes</h3>
+                                            <h5>{{ trans('home.init_phrase') }}</h5>
                                         </div>
                                     </li><!-- mini profile end-->
 
