@@ -374,79 +374,82 @@
                                             </div> <!-- single education end -->
 
                                             <!-- single education -->
-                                            <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                                            <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
                                                 <div class="card">
                                                     <div class="card-image waves-effect waves-block waves-light">
-                                                        <h2 class="left-align card-title-top">2005 - 2007</h2>
+                                                        <h2 class="left-align card-title-top">2015</h2>
                                                         <div class="card-img-wrap">
-                                                            <img class="activator" src="images/grad-cap.png" alt="">
+                                                            <img class="activator" src="{{ asset('images/cert.png') }}" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="card-content">
-                                                        <span class="card-title activator brand-text">Bachelor of Science<i class="mdi-navigation-more-vert right"></i></span>
-                                                        <p>Oxford University</p>
+                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_2') }}<i class="mdi-navigation-more-vert right"></i></span>
+                                                        <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                     </div>
+                                                    <!-- Reveal content-->
                                                     <div class="card-reveal">
                                                         <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">Bachelor of Science<i class="mdi-navigation-close right"></i></span>
-                                                            <p>Oxford University</p>
+                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_2') }}<i class="mdi-navigation-close right"></i></span>
+                                                            <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                         </div>
                                                         <p class="rev-content">
-                                                            Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing.
+                                                            {{ trans('home.educ_course_desc_2') }}
                                                         </p>
                                                     </div>
                                                 </div>
-                                            </div> <!-- single education -->
+                                            </div> <!-- single education end -->
 
                                             <!-- single education -->
-                                            <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                                            <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
                                                 <div class="card">
                                                     <div class="card-image waves-effect waves-block waves-light">
-                                                        <h2 class="left-align card-title-top">2005 - 2007</h2>
+                                                        <h2 class="left-align card-title-top">2015</h2>
                                                         <div class="card-img-wrap">
-                                                            <img class="activator" src="images/grad-cap.png" alt="">
+                                                            <img class="activator" src="{{ asset('images/cert.png') }}" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="card-content">
-                                                        <span class="card-title activator brand-text">A Level<i class="mdi-navigation-more-vert right"></i></span>
-                                                        <p>Oxford College</p>
+                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_3') }}<i class="mdi-navigation-more-vert right"></i></span>
+                                                        <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                     </div>
+                                                    <!-- Reveal content-->
                                                     <div class="card-reveal">
                                                         <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">A Level<i class="mdi-navigation-close right"></i></span>
-                                                            <p>Oxford College</p>
+                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_3') }}<i class="mdi-navigation-close right"></i></span>
+                                                            <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                         </div>
                                                         <p class="rev-content">
-                                                            Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing.
+                                                            {{ trans('home.educ_course_desc_3') }}
                                                         </p>
                                                     </div>
                                                 </div>
-                                            </div> <!-- single education -->
+                                            </div> <!-- single education end -->
 
                                             <!-- single education -->
-                                            <div class="col-sm-4 single-card-box">
+                                            <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
                                                 <div class="card">
                                                     <div class="card-image waves-effect waves-block waves-light">
-                                                        <h2 class="left-align card-title-top">1995 - 2005</h2>
+                                                        <h2 class="left-align card-title-top">2015</h2>
                                                         <div class="card-img-wrap">
-                                                            <img class="activator" src="images/grad-cap.png" alt="">
+                                                            <img class="activator" src="{{ asset('images/cert.png') }}" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="card-content">
-                                                        <span class="card-title activator brand-text">O Level<i class="mdi-navigation-more-vert right"></i></span>
-                                                        <p>Oxford School</p>
+                                                        <span class="card-title activator brand-text">{{ trans('home.educ_course_4') }}<i class="mdi-navigation-more-vert right"></i></span>
+                                                        <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                     </div>
+                                                    <!-- Reveal content-->
                                                     <div class="card-reveal">
                                                         <div class="rev-title-wrap">
-                                                            <span class="card-title activator brand-text">O Level<i class="mdi-navigation-close right"></i></span>
-                                                            <p>Oxford School</p>
+                                                            <span class="card-title activator brand-text">{{ trans('home.educ_course_4') }}<i class="mdi-navigation-close right"></i></span>
+                                                            <p>School of Net Internet Sistemas e Tecnologia Ltda</p>
                                                         </div>
                                                         <p class="rev-content">
-                                                            Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing.
+                                                            {{ trans('home.educ_course_desc_4') }}
                                                         </p>
                                                     </div>
                                                 </div>
-                                            </div> <!-- single education -->
+                                            </div> <!-- single education end -->
                                         </div>
                                     </div>
                                 </div>

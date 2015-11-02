@@ -23,4 +23,13 @@ return [
     //Education
     'educ_course_1'=>'T.I - Desenvolvimento web',
     'educ_course_desc_1'=>'Curso superior incompleto em desenvolvimento web, HTML, CSS, JavaScript/JQuery, PHP e Banco de dados.',
+
+    'educ_course_2'=>'Linux para desenvolvedores',
+    'educ_course_desc_2'=>'Certificado de módulo, 16 horas',
+
+    'educ_course_3'=>'Amazon Web Services',
+    'educ_course_desc_3'=>'Certificado de módulo, 16 horas',
+
+    'educ_course_4'=>'Lumen Framework',
+    'educ_course_desc_4'=>'Certificado de módulo, 8 horas',
 ];

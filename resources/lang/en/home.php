@@ -23,4 +23,13 @@ return [
     //Education
     'educ_course_1'=>'I.T - Web Development',
     'educ_course_desc_1'=>'Incomplete degree in web development, HTML , CSS , JavaScript / JQuery , PHP and database.',
+
+    'educ_course_2'=>'Linux for developers',
+    'educ_course_desc_2'=>'Module Certificate, 16 hours course',
+
+    'educ_course_3'=>'Amazon Web Services',
+    'educ_course_desc_3'=>'Module Certificate, 16 hours course',
+
+    'educ_course_4'=>'Lumen Framework',
+    'educ_course_desc_4'=>'Module Certificate, 8 hours course',
 ];
