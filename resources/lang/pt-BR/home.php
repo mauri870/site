@@ -45,4 +45,5 @@ return [
     'contact_subject'=>'Assunto',
     'contact_message'=>'Mensagem',
     'contact_submit_button'=>'Enviar',
+    'contact_success_message'=>'Obrigado pelo contato, responderei em breve!',
 ];

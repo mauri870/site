@@ -39,11 +39,11 @@ return [
     //Fun
     'commits'=>'Commits on this project',
 
-
     //Contact
     'contact'=>'Contact',
     'contact_name'=>'Name',
     'contact_subject'=>'Subject',
     'contact_message'=>'Message',
     'contact_submit_button'=>'Send Message',
+    'contact_success_message'=>'Thanks for contacting me, i will reply to you as soon as possible.',
 ];
