@@ -33,8 +33,6 @@ class HomeController extends Controller
 
         $public_repos = Cache::get('public_repos');
         $commits = Cache::get('commits');
-
-        dd($commits);
         return view('index',compact('my_age','dev_time','public_repos','commits'));
     }
 
