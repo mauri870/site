@@ -501,6 +501,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <h2 class="title">PORTFOLIO</h2>
+                        {{-- Portfolio separators
                         <ul class="inline-menu clearfix portfolio-category" id="portfolio-msnry-sort">
                             <li class="active"><a href="#" data-target="*">All</a>
                             </li>
@@ -512,24 +513,12 @@
                             </li>
                             <li><a href="#" data-target=".category-4">Fashion</a>
                             </li>
-                        </ul>
+                        </ul>--}}
                     </div>
                 </div>
             </div>
         </div>
         <!-- .container end -->
-    </div>
-    <div id="portfolioModal" class="modal white">
-        <div class="model-img"></div>
-        <div class="modal-content">
-            <h2 class="title">Lorem ipsum dolor sit fugit dolore.</h2>
-            <p class="m-content">A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior.</p>
-        </div>
-
-        <div class="modal-footer">
-            <a href="#" target="_blank" class="waves-effect btn-flat brand-text modal-action">Live Demo</a>
-            <a href="#" class="waves-effect btn-flat brand-text modal-action modal-close">cancel</a>
-        </div>
     </div>
 
     <div class="portfolio-bottom">
@@ -539,77 +528,13 @@
                     <ul class="clearfix protfolio-item" id="protfolio-msnry">
 
                         <!-- Single Portfolio-->
-                        <li class="single-port-item category-1 category-3">
-                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#"> <!-- Portfolio pop-up content-->
+                        <li class="single-port-item category-2 category-4">
+                            <a href="http://futuraluz.com.br" target="_blank" class="waves-effect waves-block waves-light" data-image-source="">
                                 <div class="protfolio-image">
-                                    <img src="images/portfolio/pf1.jpg" alt="portfolio"> <!-- portfolio thumbnail-->
+                                    <img src="{{ asset('images/portfolio/futuraluz.png') }}" alt="portfolio">
                                     <div class="protfolio-content waves-effect waves-block waves-light">
                                         <div class="protfolio-content__inner">
-                                            <h2 class="p-title">item name</h2>
-                                        </div>
-                                    </div>
-                                    <div class="p-overlay"></div>
-                                </div>
-                            </a>
-                        </li>
-                        <!--/ single portfolio -->
-
-                        <!-- Single Portfolio-->
-                        <li class="single-port-item category-2 category-1">
-                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
-                                <div class="protfolio-image">
-                                    <img src="images/portfolio/pf2.jpg" alt="portfolio">
-                                    <div class="protfolio-content waves-effect waves-block waves-light">
-                                        <div class="protfolio-content__inner">
-                                            <h2 class="p-title">item name</h2>
-                                        </div>
-                                    </div>
-                                    <div class="p-overlay"></div>
-                                </div>
-                            </a>
-                        </li>
-                        <!--/ single portfolio -->
-
-                        <!-- Single Portfolio-->
-                        <li class="single-port-item category-1 category-2">
-                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
-                                <div class="protfolio-image">
-                                    <img src="images/portfolio/pf3.jpg" alt="portfolio">
-                                    <div class="protfolio-content waves-effect waves-block waves-light">
-                                        <div class="protfolio-content__inner">
-                                            <h2 class="p-title">item name</h2>
-                                        </div>
-                                    </div>
-                                    <div class="p-overlay"></div>
-                                </div>
-                            </a>
-                        </li>
-                        <!--/ single portfolio -->
-
-                        <!-- Single Portfolio-->
-                        <li class="single-port-item category-3">
-                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
-                                <div class="protfolio-image">
-                                    <img src="images/portfolio/pf4.jpg" alt="portfolio">
-                                    <div class="protfolio-content waves-effect waves-block waves-light">
-                                        <div class="protfolio-content__inner">
-                                            <h2 class="p-title">item name</h2>
-                                        </div>
-                                    </div>
-                                    <div class="p-overlay"></div>
-                                </div>
-                            </a>
-                        </li>
-                        <!--/ single portfolio -->
-
-                        <!-- Single Portfolio-->
-                        <li class="single-port-item category-1 category-3 category-4">
-                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
-                                <div class="protfolio-image">
-                                    <img src="images/portfolio/pf5.jpg" alt="portfolio">
-                                    <div class="protfolio-content waves-effect waves-block waves-light">
-                                        <div class="protfolio-content__inner">
-                                            <h2 class="p-title">item name</h2>
+                                            <h2 class="p-title">FuturaLuz</h2>
                                         </div>
                                     </div>
                                     <div class="p-overlay"></div>
@@ -620,12 +545,28 @@
 
                         <!-- Single Portfolio-->
                         <li class="single-port-item category-2 category-4">
-                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                            <a href="http://pomzan.com.br" target="_blank" class="waves-effect waves-block waves-light" data-image-source="">
                                 <div class="protfolio-image">
-                                    <img src="images/portfolio/pf6.jpg" alt="portfolio">
+                                    <img src="{{ asset('images/portfolio/pomzan.png') }}" alt="portfolio">
                                     <div class="protfolio-content waves-effect waves-block waves-light">
                                         <div class="protfolio-content__inner">
-                                            <h2 class="p-title">item name</h2>
+                                            <h2 class="p-title">Pomzan Móveis</h2>
+                                        </div>
+                                    </div>
+                                    <div class="p-overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <!--/ single portfolio -->
+
+                        <!-- Single Portfolio-->
+                        <li class="single-port-item category-2 category-4">
+                            <a href="http://digitalserra.com.br" target="_blank" class="waves-effect waves-block waves-light" data-image-source="">
+                                <div class="protfolio-image">
+                                    <img src="{{ asset('images/portfolio/digital-serra.png') }}" alt="portfolio">
+                                    <div class="protfolio-content waves-effect waves-block waves-light">
+                                        <div class="protfolio-content__inner">
+                                            <h2 class="p-title">DigitalSerra Tecnologia Digital</h2>
                                         </div>
                                     </div>
                                     <div class="p-overlay"></div>
