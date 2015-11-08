@@ -148,8 +148,9 @@
                             </li>
                         </ul> <!-- ./social icons end -->
                         <div class="right copyright">
-                            <p>Mauri870 &copy; All Rights Reserved</p><br>
+                            <p>Mauri870 &copy; {{ trans('home.rights') }}</p><br>
                             <p>Theme by MaterialX &copy;</p>
+                            <p>{{ trans('home.dev_by') }} <a target="_blank" href="http://laravel.com"><span class="label label-default" style="background-color: #F3645E">Laravel Framework</span></a></p>
                         </div>
                     </div>
                 </div>
