@@ -46,4 +46,8 @@ return [
     'contact_message'=>'Message',
     'contact_submit_button'=>'Send Message',
     'contact_success_message'=>'Thanks for contacting me, i will reply to you as soon as possible.',
+
+    //Footer
+    'rights'=>'All Rights Reserved',
+    'dev_by'=>'Developed with',
 ];
