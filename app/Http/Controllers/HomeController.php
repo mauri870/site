@@ -34,6 +34,7 @@ class HomeController extends Controller
         $public_repos = Cache::get('public_repos');
         $commits = Cache::get('commits');
 
+        dd($commits);
         return view('index',compact('my_age','dev_time','public_repos','commits'));
     }
 
@@ -88,7 +89,7 @@ class HomeController extends Controller
      * Get profile basic info and cached info
      */
     public function getGithubInfo(){
-        if(!Cache::has('public_repos')){
+        if(!Cache::has('public_repos') || !Cache::has('commits')){
             $public_repos = GitHub::me()->show()['public_repos'];
             $commits = GitHub::repo()->statistics('mauri870','site');
 
