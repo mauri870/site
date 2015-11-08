@@ -26,7 +26,7 @@
         <div class="section-call-to-area">
             <div class="container">
                 <div class="row">
-                    <a href="index.html#about" class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden" data-section="#about">
+                    <a href="#about" class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden" data-section="#about">
                         <i class="mdi-navigation-expand-more"></i>
                     </a>
                 </div>
@@ -502,15 +502,15 @@
                     <div class="col-sm-12">
                         <h2 class="title">PORTFOLIO</h2>
                         <ul class="inline-menu clearfix portfolio-category" id="portfolio-msnry-sort">
-                            <li class="active"><a href="index.html#" data-target="*">All</a>
+                            <li class="active"><a href="#" data-target="*">All</a>
                             </li>
-                            <li><a href="index.html#" data-target=".category-1">Art</a>
+                            <li><a href="#" data-target=".category-1">Art</a>
                             </li>
-                            <li><a href="index.html#" data-target=".category-2">Accessories</a>
+                            <li><a href="#" data-target=".category-2">Accessories</a>
                             </li>
-                            <li><a href="index.html#" data-target=".category-3">Design</a>
+                            <li><a href="#" data-target=".category-3">Design</a>
                             </li>
-                            <li><a href="index.html#" data-target=".category-4">Fashion</a>
+                            <li><a href="#" data-target=".category-4">Fashion</a>
                             </li>
                         </ul>
                     </div>
@@ -527,8 +527,8 @@
         </div>
 
         <div class="modal-footer">
-            <a href="index.html#" target="_blank" class="waves-effect btn-flat brand-text modal-action">Live Demo</a>
-            <a href="index.html#" class="waves-effect btn-flat brand-text modal-action modal-close">cancel</a>
+            <a href="#" target="_blank" class="waves-effect btn-flat brand-text modal-action">Live Demo</a>
+            <a href="#" class="waves-effect btn-flat brand-text modal-action modal-close">cancel</a>
         </div>
     </div>
 
@@ -540,7 +540,7 @@
 
                         <!-- Single Portfolio-->
                         <li class="single-port-item category-1 category-3">
-                            <a href="index.html#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#"> <!-- Portfolio pop-up content-->
+                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#"> <!-- Portfolio pop-up content-->
                                 <div class="protfolio-image">
                                     <img src="images/portfolio/pf1.jpg" alt="portfolio"> <!-- portfolio thumbnail-->
                                     <div class="protfolio-content waves-effect waves-block waves-light">
@@ -556,7 +556,7 @@
 
                         <!-- Single Portfolio-->
                         <li class="single-port-item category-2 category-1">
-                            <a href="index.html#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
                                 <div class="protfolio-image">
                                     <img src="images/portfolio/pf2.jpg" alt="portfolio">
                                     <div class="protfolio-content waves-effect waves-block waves-light">
@@ -572,7 +572,7 @@
 
                         <!-- Single Portfolio-->
                         <li class="single-port-item category-1 category-2">
-                            <a href="index.html#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
                                 <div class="protfolio-image">
                                     <img src="images/portfolio/pf3.jpg" alt="portfolio">
                                     <div class="protfolio-content waves-effect waves-block waves-light">
@@ -588,7 +588,7 @@
 
                         <!-- Single Portfolio-->
                         <li class="single-port-item category-3">
-                            <a href="index.html#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
                                 <div class="protfolio-image">
                                     <img src="images/portfolio/pf4.jpg" alt="portfolio">
                                     <div class="protfolio-content waves-effect waves-block waves-light">
@@ -604,7 +604,7 @@
 
                         <!-- Single Portfolio-->
                         <li class="single-port-item category-1 category-3 category-4">
-                            <a href="index.html#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
                                 <div class="protfolio-image">
                                     <img src="images/portfolio/pf5.jpg" alt="portfolio">
                                     <div class="protfolio-content waves-effect waves-block waves-light">
@@ -620,7 +620,7 @@
 
                         <!-- Single Portfolio-->
                         <li class="single-port-item category-2 category-4">
-                            <a href="index.html#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                            <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
                                 <div class="protfolio-image">
                                     <img src="images/portfolio/pf6.jpg" alt="portfolio">
                                     <div class="protfolio-content waves-effect waves-block waves-light">
@@ -635,8 +635,8 @@
                         <!--/ single portfolio -->
 
                     </ul>
-                    <!-- portfolio load more button-->
-                    <a id="portfolio-item-loader" href="index.html#" class="btn-floating btn-large waves-effect waves-light brand-bg"><i class="mdi-content-add"></i></a>
+                    {{--<!-- portfolio load more button-->
+                    <a id="portfolio-item-loader" href="#" class="btn-floating btn-large waves-effect waves-light brand-bg"><i class="mdi-content-add"></i></a>--}}
                 </div>
             </div>
         </div>
@@ -711,7 +711,7 @@
                                                 </div>
                                                 <div class="card-content">
                                                     <span class="card-title activator brand-text">Jonh Smith -</span>
-                                                    <a href="index.html#">CEO, Apple Inc</a>
+                                                    <a href="#">CEO, Apple Inc</a>
                                                 </div>
                                             </div>
                                         </div> <!-- ./single testimonial box -->
@@ -725,7 +725,7 @@
                                                 </div>
                                                 <div class="card-content">
                                                     <span class="card-title activator brand-text">Jonh Smith -</span>
-                                                    <a href="index.html#">CEO, Apple Inc</a>
+                                                    <a href="#">CEO, Apple Inc</a>
                                                 </div>
                                             </div>
                                         </div> <!-- ./single testimonial box -->
@@ -739,7 +739,7 @@
                                                 </div>
                                                 <div class="card-content">
                                                     <span class="card-title activator brand-text">Jonh Smith -</span>
-                                                    <a href="index.html#">CEO, Apple Inc</a>
+                                                    <a href="#">CEO, Apple Inc</a>
                                                 </div>
                                             </div>
                                         </div> <!-- ./single testimonial box -->
@@ -753,7 +753,7 @@
                                                 </div>
                                                 <div class="card-content">
                                                     <span class="card-title activator brand-text">Jonh Smith -</span>
-                                                    <a href="index.html#">CEO, Apple Inc</a>
+                                                    <a href="#">CEO, Apple Inc</a>
                                                 </div>
                                             </div>
                                         </div> <!-- ./single testimonial box -->
@@ -767,7 +767,7 @@
                                                 </div>
                                                 <div class="card-content">
                                                     <span class="card-title activator brand-text">Jonh Smith -</span>
-                                                    <a href="index.html#">CEO, Apple Inc</a>
+                                                    <a href="#">CEO, Apple Inc</a>
                                                 </div>
                                             </div>
                                         </div> <!-- ./single testimonial box -->
@@ -816,7 +816,7 @@
                                         </div>
                                     </div>
                                     <div class="clearfix card-content">
-                                        <a href="index.html#" class="left js-favorite" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">15</span></a>
+                                        <a href="#" class="left js-favorite" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">15</span></a>
                                         <a href="single.html" class="brand-text right waves-effect">Read More</a>
                                     </div>
                                 </div>
@@ -836,7 +836,7 @@
                                         </div>
                                     </div>
                                     <div class="clearfix card-content">
-                                        <a href="index.html#" class="left js-favorite active" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">23</span></a>
+                                        <a href="#" class="left js-favorite active" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">23</span></a>
                                         <a href="single.html" class="brand-text right waves-effect">Read More</a>
                                     </div>
                                 </div>
@@ -856,7 +856,7 @@
                                         </div>
                                     </div>
                                     <div class="clearfix card-content">
-                                        <a href="index.html#" class="left js-favorite" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">17</span></a>
+                                        <a href="#" class="left js-favorite" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">17</span></a>
                                         <a href="single.html" class="brand-text right waves-effect">Read More</a>
                                     </div>
                                 </div>
@@ -967,7 +967,7 @@
     <div class="section-call-to-area">
         <div class="container">
             <div class="row">
-                <a href="index.html#home" class="btn-floating btn-large button-middle call-to-home section-call-to-btn animated btn-up btn-hidden" data-section="#home">
+                <a href="#home" class="btn-floating btn-large button-middle call-to-home section-call-to-btn animated btn-up btn-hidden" data-section="#home">
                     <i class="mdi-navigation-expand-less"></i>
                 </a>
             </div>
