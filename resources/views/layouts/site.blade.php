@@ -63,9 +63,9 @@
                     <div class="nav-inner">
                         <nav class="primary-nav">
                             <div class="clearfix nav-wrapper">
-                                <a href="index.html#home" class="left brand-logo menu-smooth-scroll" data-section="#home"><img src="images/logo.png" alt="">
+                                <a href="{{ route('home.index') }}" class="left brand-logo menu-smooth-scroll" data-section="#home"><img src="images/logo.png" alt="">
                                 </a>
-                                <a href="index.html#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                                <a href="{{ route('home.index') }}" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
                                 <ul class="right static-menu">
                                     <li class="search-form-li">
                                         <a id="initSearchIcon" class=""><i class="mdi-action-search"></i> </a>
@@ -78,7 +78,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <a class="dropdown-button blog-submenu-init" href="index.html#!" data-activates="dropdown1">
+                                        <a class="dropdown-button blog-submenu-init" href="" data-activates="dropdown1">
                                             <i class="mdi-navigation-more-vert right"></i>
                                         </a>
                                     </li>
@@ -97,17 +97,15 @@
                                     </li><!-- mini profile end-->
 
 
-                                    <li><a href="index.html#about" data-section="#about" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>{{ trans('menu.about') }}</a>
+                                    <li><a href="#about" data-section="#about" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>{{ trans('menu.about') }}</a>
                                     </li>
-                                    <li><a href="index.html#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>{{ trans('menu.skills') }}</a>
+                                    <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>{{ trans('menu.skills') }}</a>
                                     </li>
-                                    <li><a href="index.html#education" data-section="#education" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>{{ trans('menu.education') }}</a>
+                                    <li><a href="#education" data-section="#education" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>{{ trans('menu.education') }}</a>
                                     </li>
-                                    <li><a href="index.html#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>{{ trans('menu.portfolio') }}</a>
+                                    <li><a href="#blog" data-section="#blog" class="menu-smooth-scroll"><i class="fa fa-pencil fa-fw"></i>Blog</a>
                                     </li>
-                                    <li><a href="index.html#blog" data-section="#blog" class="menu-smooth-scroll"><i class="fa fa-pencil fa-fw"></i>Blog</a>
-                                    </li>
-                                    <li><a href="index.html#contact" data-section="#contact" class="menu-smooth-scroll"><i class="fa fa-paper-plane fa-fw"></i>{{ trans('menu.contact') }}</a>
+                                    <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll"><i class="fa fa-paper-plane fa-fw"></i>{{ trans('menu.contact') }}</a>
                                     </li>
                                 </ul>
                                 <ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
