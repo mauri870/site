@@ -534,7 +534,7 @@
                                     <img src="{{ asset('images/portfolio/futuraluz.png') }}" alt="portfolio">
                                     <div class="protfolio-content waves-effect waves-block waves-light">
                                         <div class="protfolio-content__inner">
-                                            <h2 class="p-title">FuturaLuz</h2>
+                                            <h2 class="p-title">Futura Luz Led</h2>
                                         </div>
                                     </div>
                                     <div class="p-overlay"></div>
@@ -567,6 +567,22 @@
                                     <div class="protfolio-content waves-effect waves-block waves-light">
                                         <div class="protfolio-content__inner">
                                             <h2 class="p-title">DigitalSerra Tecnologia Digital</h2>
+                                        </div>
+                                    </div>
+                                    <div class="p-overlay"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <!--/ single portfolio -->
+
+                        <!-- Single Portfolio-->
+                        <li class="single-port-item category-2 category-4">
+                            <a href="http://mywaycozinha.herokuapp.com" target="_blank" class="waves-effect waves-block waves-light" data-image-source="">
+                                <div class="protfolio-image">
+                                    <img src="{{ asset('images/portfolio/myway.png') }}" alt="portfolio">
+                                    <div class="protfolio-content waves-effect waves-block waves-light">
+                                        <div class="protfolio-content__inner">
+                                            <h2 class="p-title">My Way Cozinha Universal</h2>
                                         </div>
                                     </div>
                                     <div class="p-overlay"></div>
