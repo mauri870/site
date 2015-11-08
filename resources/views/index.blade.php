@@ -15,7 +15,7 @@
                         <div class="center-align home-content">
                             <h1 class="home-title"><span id="typer_i_am"></span></h1>
                             <h2 class="home-subtitle">{{ trans('home.init_phrase') }}</h2>
-                            <a href="index.html#contact" class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text">Hire Me <i class="mdi-content-send left"></i>
+                            <a href="//github.com/mauri870" target="_blank" class="waves-effect btn-flat brand-text">github.com/mauri870 <i class="fa fa-github left"></i>
                             </a>
                         </div>
                     </div>
@@ -979,7 +979,7 @@
 @section('scripts')
     <script>
         $(document).ready(function () {
-                $('#typer_i_am').typer(['PHP', 'Laravel','Lumen Framework', 'github.com/mauri870']);
+                $('#typer_i_am').typer(['PHP', 'Laravel','Lumen Framework']);
         });
     </script>
 @stop
