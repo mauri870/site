@@ -297,7 +297,7 @@
                                                     <div class="card-image waves-effect waves-block waves-light">
                                                         <h2 class="left-align card-title-top">{{ trans('home.job_time_1') }}</h2>
                                                         <div class="valign-wrapper card-img-wrap">
-                                                            <img class="activator" src="images/ghost_rider.jpg" alt="">
+                                                            <img class="activator" src="{{ asset('images/experience/digitalSerra.png') }}" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="card-content">
