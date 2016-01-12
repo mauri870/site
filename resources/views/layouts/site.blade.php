@@ -79,7 +79,7 @@
                                     </li>
                                     <li>
                                         <a class="dropdown-button blog-submenu-init" href="" data-activates="dropdown1">
-                                            <i class="mdi-navigation-more-vert right"></i>
+                                            <i class="fa fa-language"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -112,7 +112,7 @@
                                     @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                                         <li>
                                             <a rel="alternate" hreflang="{{$localeCode}}" href="{{LaravelLocalization::getLocalizedURL($localeCode) }}">
-                                                {{{ $properties['native'] }}}
+                                                {{{$properties['native'] }}}
                                             </a>
                                         </li>
                                     @endforeach
