@@ -36,6 +36,9 @@ return [
     'educ_course_laravel'=>'Laravel Framework',
     'educ_course_desc_laravel'=>'Module Certificate, 10 hours course',
 
+    'educ_course_laravel_with_angular_mod_laravel'=>'Laravel Framework + AngularJS - Laravel Module',
+    'educ_course_desc_laravel_with_angular_mod_laravel'=>'Module Certificate, 20 hours course',
+
     //Fun
     'commits'=>'Commits on this project',
 

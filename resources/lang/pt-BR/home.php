@@ -36,6 +36,9 @@ return [
     'educ_course_laravel'=>'Laravel Framework',
     'educ_course_desc_laravel'=>'Certificado de módulo, 10 horas',
 
+    'educ_course_laravel_with_angular_mod_laravel'=>'Laravel Framework + AngularJS - Módulo de Laravel',
+    'educ_course_desc_laravel_with_angular_mod_laravel'=>'Certificado de Módulo, 20 horas',
+
     //Fun
     'commits'=>'Commits neste projeto',
 
