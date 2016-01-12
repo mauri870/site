@@ -8,6 +8,7 @@
 namespace App\Services;
 
 
+use Carbon\Carbon;
 use GrahamCampbell\GitHub\Facades\GitHub;
 use Illuminate\Support\Facades\Cache;
 
@@ -30,5 +31,21 @@ class HomeService
 
             Cache::put('commits', $commits_total, 30);
         }
+    }
+
+    /**
+     * @return int
+     */
+    public function getMyAge()
+    {
+        return Carbon::now()->diffInYears(Carbon::parse('1995-10-19 05:30:00'));
+    }
+
+    /**
+     * @return int
+     */
+    public function getTotalDevTime()
+    {
+        return Carbon::now()->diffInYears(Carbon::parse('2013-9-2 19:00:00'));
     }
 }

@@ -34,8 +34,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $my_age = Carbon::now()->diffInYears(Carbon::parse('1995-10-19 05:30:00'));
-        $dev_time = Carbon::now()->diffInYears(Carbon::parse('2013-9-2 19:00:00'));
+        $my_age = $this->service->getMyAge();
+        $dev_time = $this->service->getTotalDevTime();
 
         $this->service->getGithubCommitsAndRepositoriesCount();
 
