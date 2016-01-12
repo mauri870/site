@@ -146,6 +146,9 @@
                             <li>
                                 <a href="https://github.com/mauri870" target="_blank" class="tooltips tooltipped behance" data-position="top" data-delay="50" data-tooltip="Github"><i class="fa fa-github"></i></a>
                             </li>
+                            <li>
+                                <a href="http://facebook.com/mauri870" target="_blank" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                            </li>
                         </ul> <!-- ./social icons end -->
                         <div class="right copyright">
                             <p>Mauri870 &copy; {{ trans('home.rights') }}</p><br>
