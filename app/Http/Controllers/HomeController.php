@@ -26,13 +26,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $my_age = Carbon::now()->diffInYears(Carbon::parse('1995-10-19 17:30:00'));
+        $my_age = Carbon::now()->diffInYears(Carbon::parse('1995-10-19 05:30:00'));
         $dev_time = Carbon::now()->diffInYears(Carbon::parse('2013-9-2 19:00:00'));
 
-        $this->getGithubInfo();
+        $this->getGithubCommitsAndRepositoriesCount();
 
         $public_repos = Cache::get('public_repos');
         $commits = Cache::get('commits');
+
         return view('index',compact('my_age','dev_time','public_repos','commits'));
     }
 
@@ -86,14 +87,18 @@ class HomeController extends Controller
     /**
      * Get profile basic info and cached info
      */
-    public function getGithubInfo(){
-        if(!Cache::has('public_repos') || !Cache::has('commits')){
+    private function getGithubCommitsAndRepositoriesCount(){
+        if(!Cache::has('public_repos')){
             $public_repos = GitHub::me()->show()['public_repos'];
-            $commits = GitHub::repo()->statistics('mauri870','site');
-
-            $commits_total = array_shift($commits)['total'];
 
             Cache::put('public_repos', $public_repos, 30);
+
+        }
+
+        if(!Cache::has('commits')){
+            $commits = GitHub::repo()->statistics('mauri870','site');
+            $commits_total = array_shift($commits)['total'];
+
             Cache::put('commits', $commits_total, 30);
         }
     }
