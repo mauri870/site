@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+
+use App\Services\HomeService;
 use Carbon\Carbon;
 use GrahamCampbell\GitHub\Facades\GitHub;
 use Illuminate\Http\Request;
@@ -15,9 +17,15 @@ use Laracasts\Flash\Flash;
 
 class HomeController extends Controller
 {
-    public function __construct()
+    /**
+     * @var HomeService
+     */
+    private $service;
+
+    public function __construct(HomeService $service)
     {
 
+        $this->service = $service;
     }
 
     /**
@@ -29,7 +37,7 @@ class HomeController extends Controller
         $my_age = Carbon::now()->diffInYears(Carbon::parse('1995-10-19 05:30:00'));
         $dev_time = Carbon::now()->diffInYears(Carbon::parse('2013-9-2 19:00:00'));
 
-        $this->getGithubCommitsAndRepositoriesCount();
+        $this->service->getGithubCommitsAndRepositoriesCount();
 
         $public_repos = Cache::get('public_repos');
         $commits = Cache::get('commits');
@@ -82,24 +90,5 @@ class HomeController extends Controller
 
         Flash::success(trans('home.contact_success_message'));
         return redirect()->to(route('home.index').'#contact');
-    }
-
-    /**
-     * Get profile basic info and cached info
-     */
-    private function getGithubCommitsAndRepositoriesCount(){
-        if(!Cache::has('public_repos')){
-            $public_repos = GitHub::me()->show()['public_repos'];
-
-            Cache::put('public_repos', $public_repos, 30);
-
-        }
-
-        if(!Cache::has('commits')){
-            $commits = GitHub::repo()->statistics('mauri870','site');
-            $commits_total = array_shift($commits)['total'];
-
-            Cache::put('commits', $commits_total, 30);
-        }
     }
 }
