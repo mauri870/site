@@ -15,7 +15,11 @@
                         <div class="center-align home-content">
                             <h1 class="home-title"><span id="typer_i_am"></span></h1>
                             <h2 class="home-subtitle">{{ trans('home.init_phrase') }}</h2>
-                            <a href="//github.com/mauri870" target="_blank" class="waves-effect btn-flat brand-text">github.com/mauri870 <i class="fa fa-github left"></i>
+                            <a href="https://github.com/mauri870" target="_blank" class="waves-effect btn-flat brand-text">
+                                github.com/mauri870 <i class="fa fa-github left"></i>
+                            </a>
+                            <a href="https://br.linkedin.com/pub/mauri-de-souza-nunes/90/230/b2" target="_blank" class="waves-effect btn-flat brand-text">
+                                Linkedin <i class="fa fa-linkedin-square left"></i>
                             </a>
                         </div>
                     </div>
@@ -80,6 +84,9 @@
                             </li>
                             <li>
                                 <a href="https://github.com/mauri870" target="_blank" class="btn-floating waves-effect waves-light white"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://facebook.com/mauri870" target="_blank" class="btn-floating waves-effect waves-light white"><i class="fa fa-facebook"></i></a>
                             </li>
                         </ul>
                     </div>
