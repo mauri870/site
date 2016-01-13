@@ -22,14 +22,13 @@ class HomeService
             $public_repos = GitHub::me()->show()['public_repos'];
 
             Cache::put('public_repos', $public_repos, 30);
-
         }
 
         if(!Cache::has('commits')){
-            $commits = GitHub::repo()->statistics('mauri870','site');
-            $commits_total = array_shift($commits)['total'];
-
-            Cache::put('commits', $commits_total, 30);
+            $info = array_values(GitHub::repo()->statistics('mauri870','site'));
+            $info = array_shift($info);
+            $commits_total = $info;
+            Cache::put('commits', array_shift($commits_total), 30);
         }
     }
 
