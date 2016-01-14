@@ -25,14 +25,8 @@ class HomeService
         }
 
         if(!Cache::has('commits')){
-            $info = array_values(GitHub::repo()->statistics('mauri870','site'));
-            if($info != null){
-                $info = array_shift($info);
-                $commits_total = $info;
-            }else{
-                $commits_total = [100];
-            }
-            Cache::put('commits', array_shift($commits_total), 30);
+            $commits = GitHub::repo()->statistics('mauri870','site')['0']['total'];
+            Cache::put('commits', $commits, 30);
         }
     }
 
